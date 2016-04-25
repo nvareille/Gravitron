@@ -1,0 +1,1430 @@
+﻿[2016.04.18-04.29.55:625][  0]Log file open, 04/18/16 13:29:55
+[2016.04.18-04.29.55:625][  0]LogInit:Display: Running engine for game: vegetation_pack
+[2016.04.18-04.29.55:625][  0]LogInit:Display: RandInit(398385643) SRandInit(398385643).
+[2016.04.18-04.29.55:625][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.18-04.29.55:625][  0]LogStats: Stats thread started at 0.234942
+[2016.04.18-04.29.55:625][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.04.18-04.29.55:625][  0]LogInit: API Version: 2672455
+[2016.04.18-04.29.55:625][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.04.18-04.29.55:625][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.04.18-04.29.55:625][  0]LogInit: Build Configuration: Development
+[2016.04.18-04.29.55:625][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.04.18-04.29.55:625][  0]LogInit: Command line:  
+[2016.04.18-04.29.55:625][  0]LogInit: Base directory: D:/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.04.18-04.29.55:625][  0]LogInit: Rocket: 1
+[2016.04.18-04.29.55:734][  0]LogInit: Using libcurl 7.41.0
+[2016.04.18-04.29.55:734][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.18-04.29.55:734][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.18-04.29.55:734][  0]LogInit:  - other features:
+[2016.04.18-04.29.55:734][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.18-04.29.55:734][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.18-04.29.55:734][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.18-04.29.55:734][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.18-04.29.55:734][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.18-04.29.55:734][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.18-04.29.55:734][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.18-04.29.55:734][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.18-04.29.55:734][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.18-04.29.55:734][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.18-04.29.55:851][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.18-04.29.55:857][  0]LogInit: Object subsystem initialized
+[2016.04.18-04.29.55:859][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.18-04.29.55:859][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.18-04.29.55:915][  0]LogInit: Computer: DRAGON-PC
+[2016.04.18-04.29.55:915][  0]LogInit: User: Dragon
+[2016.04.18-04.29.55:915][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.18-04.29.55:915][  0]LogInit: High frequency timer resolution =2.435769 MHz
+[2016.04.18-04.29.55:915][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.18-04.29.55:915][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.18-04.29.55:915][  0]LogMemory: Process Physical Memory: 53.09 MB used, 53.09 MB peak
+[2016.04.18-04.29.55:915][  0]LogMemory: Process Virtual Memory: 55.51 MB used, 55.51 MB peak
+[2016.04.18-04.29.55:915][  0]LogMemory: Physical Memory: 2591.30 MB used, 8111.60 MB total
+[2016.04.18-04.29.55:915][  0]LogMemory: Virtual Memory: 351.21 MB used, 134217728.00 MB total
+[2016.04.18-04.29.56:568][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.04.18-04.29.57:567][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970M     (Feature Level 11_0)
+[2016.04.18-04.29.57:567][  0]LogD3D11RHI: Adapter has 2973MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 1 output[s]
+[2016.04.18-04.29.57:589][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 970M     (Feature Level 11_0)
+[2016.04.18-04.29.57:589][  0]LogD3D11RHI: Adapter has 2973MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 0 output[s]
+[2016.04.18-04.29.57:590][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.18-04.29.57:590][  0]LogD3D11RHI: Adapter has 2973MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 0 output[s]
+[2016.04.18-04.29.57:590][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.18-04.29.57:596][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.18-04.29.57:596][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.18-04.29.57:614][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.18-04.29.57:635][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../Projects/Unreal/Cours/vegetation_pack/Intermediate/Shaders/WorkingDirectory/6492/).
+[2016.04.18-04.29.57:635][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../Projects/Unreal/Cours/vegetation_pack/Intermediate/Shaders/tmp/1C432D044112D94A6A54C180E31E12B1/'.
+[2016.04.18-04.29.57:635][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.18-04.29.59:349][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.18-04.29.59:360][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.18-04.29.59:370][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.18-04.29.59:381][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.18-04.29.59:392][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.18-04.29.59:409][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.18-04.29.59:419][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.18-04.29.59:428][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.18-04.29.59:437][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.18-04.29.59:447][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.18-04.29.59:456][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.18-04.29.59:466][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.18-04.29.59:473][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.18-04.29.59:559][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.18-04.29.59:568][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.18-04.29.59:578][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.18-04.29.59:588][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.18-04.29.59:588][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.18-04.30.00:179][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.18-04.30.00:339][  0]LogDerivedDataCache: Loaded boot cache 0.16s 41MB C:/Users/Dragon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.04.18-04.30.00:339][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dragon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.04.18-04.30.00:339][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/Unreal/Cours/vegetation_pack/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.18-04.30.00:339][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.18-04.30.00:339][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Projects/Unreal/Cours/vegetation_pack/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.18-04.30.00:339][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.18-04.30.00:519][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.18-04.30.00:536][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dragon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.18-04.30.04:452][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.18-04.30.04:455][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.18-04.30.04:777][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.18-04.30.04:777][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.18-04.30.04:932][  0]LogEnum:Warning: Enum Text 3 for Enum EViewModeIndex failed to resolve to any value
+[2016.04.18-04.30.06:105][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.18-04.30.13:114][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.18-04.30.13:557][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2016.04.18-04.30.15:997][  0]SourceControl: Info Source control is disabled
+[2016.04.18-04.30.16:298][  0]SourceControl: Info Source control is disabled
+[2016.04.18-04.30.16:399][  0]SourceControl: Info Source control is disabled
+[2016.04.18-04.30.16:471][  0]SourceControl: Info Source control is disabled
+[2016.04.18-04.30.17:051][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.18-04.30.17:327][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2016.04.18-04.30.17:327][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2016.04.18-04.30.17:511][  0]LogEngine: Initializing Engine...
+[2016.04.18-04.30.17:514][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.04.18-04.30.17:552][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.18-04.30.17:842][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.18-04.30.17:857][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.18-04.30.17:877][  0]LogInit: FAudioDevice initialized.
+[2016.04.18-04.30.17:899][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Dragon/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.04.18-04.30.17:903][  0]LogInit: Texture streaming: Enabled
+[2016.04.18-04.30.17:931][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.18-04.30.17:931][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.04.18-04.30.17:931][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 742aa99d4e2ded153365c6852abd7e7a|9bc7a5fc189f4e0ab4a22d5719c4a922|c75affd5-9710-4084-a803-43ff748d47e6
+[2016.04.18-04.30.17:931][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.18-04.30.18:145][  0]LogInit: Transaction tracking system initialized
+[2016.04.18-04.30.18:306][  0]BlueprintLog: New page: Editor Load
+[2016.04.18-04.30.19:197][  0]LocalizationService: Info Localization service is disabled
+[2016.04.18-04.30.19:836][  0]LogConsoleResponse:Display: 
+[2016.04.18-04.30.21:320][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.18-04.30.22:109][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/Cours/vegetation_pack/Content/' took 0.02s
+[2016.04.18-04.30.22:305][  0]SourceControl: Info Source control is disabled
+[2016.04.18-04.30.22:305][  0]Cmd: MAP LOAD FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Maps/screenshot_map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.18-04.30.22:305][  0]LogEditorServer:Warning: Can't find file '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Maps/screenshot_map.umap'
+[2016.04.18-04.30.22:305][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.18-04.30.22:378][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.59ms to complete.
+[2016.04.18-04.30.22:378][  0]LogFileHelpers: Loading map 'screenshot_map' took 0.073
+[2016.04.18-04.30.22:695][  0]LogCollectionManager: Loaded 0 collections in 0.001691 seconds
+[2016.04.18-04.30.22:738][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/Cours/vegetation_pack/Saved/Collections/' took 0.01s
+[2016.04.18-04.30.22:738][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/Cours/vegetation_pack/Content/Developers/Dragon/Collections/' took 0.01s
+[2016.04.18-04.30.22:738][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Unreal/Cours/vegetation_pack/Content/Collections/' took 0.01s
+[2016.04.18-04.30.22:738][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 1867 classes and 333 folders.
+[2016.04.18-04.30.22:743][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2016.04.18-04.30.22:748][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.18-04.30.24:311][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.04.18-04.30.24:371][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.04.18-04.30.24:493][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.18-04.30.24:498][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.18-04.30.24:523][  0]LogLoad: Full Startup: 30.74 seconds (BP compile: 0.06 seconds)
+[2016.04.18-04.30.25:008][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.18-04.30.25:184][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.04.18-04.30.25:593][  2]LogAssetRegistry: Asset discovery search completed in 12.0474 seconds
+[2016.04.18-04.30.25:593][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.04.18-04.30.25:593][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2016.04.18-04.30.49:490][266]LogAIModule: Creating AISystem for world Landscape
+[2016.04.18-04.30.49:549][266]Cmd: MAP LOAD FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Maps/Landscape.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.18-04.30.49:549][266]LightingResults: New page: Lighting Build
+[2016.04.18-04.30.49:552][266]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2016.04.18-04.30.49:568][266]LoadErrors: New page: Loading map: Landscape.umap
+[2016.04.18-04.30.49:568][266]MapCheck: New page: Map Check
+[2016.04.18-04.30.49:568][266]LightingResults: New page: Lighting Build
+[2016.04.18-04.30.49:578][266]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009E5CA50400
+[2016.04.18-04.30.49:665][266]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.18-04.30.49:694][266]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.18-04.30.49:768][266]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.497ms to complete.
+[2016.04.18-04.30.49:769][266]LogFileHelpers: Loading map 'Landscape' took 0.221
+[2016.04.18-04.30.49:800][267]Cmd: UpdateLandscapeEditorData -warnings
+[2016.04.18-04.30.49:802][267]Cmd: UpdateLandscapeEditorData
+[2016.04.18-04.32.46:212][703]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.32.46:261][703]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.32.46:273][703]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.32.46:285][703]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.32.46:310][703]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_2, compiling. 
+[2016.04.18-04.32.46:313][703]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_4, compiling. 
+[2016.04.18-04.32.46:317][703]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_4, compiling. 
+[2016.04.18-04.32.46:321][703]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_5, compiling. 
+[2016.04.18-04.32.46:324][703]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_5, compiling. 
+[2016.04.18-04.32.46:328][703]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_6, compiling. 
+[2016.04.18-04.32.46:331][703]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_7, compiling. 
+[2016.04.18-04.32.46:334][703]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_2, compiling. 
+[2016.04.18-04.32.46:337][703]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_3, compiling. 
+[2016.04.18-04.32.46:346][703]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2016.04.18-04.32.55:412][218]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_4, compiling. 
+[2016.04.18-04.33.04:848][  3]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.33.04:859][  3]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.33.04:865][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.04.18-04.33.13:904][724]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.33.13:916][724]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.33.13:945][724]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.04.18-04.33.15:487][817]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.33.15:501][817]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.33.15:531][817]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.04.18-04.33.16:851][898]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.33.16:867][898]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.33.16:893][898]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.04.18-04.33.23:503][ 55]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.33.23:515][ 55]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.33.27:680][348]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.33.27:691][348]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.33.27:721][348]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.04.18-04.33.30:819][558]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.33.30:831][558]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.33.30:861][558]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.04.18-04.33.39:355][959]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.33.39:367][959]LogMaterial: 0.000320 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.33.40:979][ 45]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.33.40:994][ 45]LogMaterial: 0.000027 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.33.40:996][ 45]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.04.18-04.33.44:095][228]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.33.44:108][228]LogMaterial: 0.000023 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.33.44:136][228]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.04.18-04.33.48:609][488]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.33.48:659][488]LogMaterial: 0.000215 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.33.48:689][488]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.04.18-04.33.53:522][791]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.33.53:538][791]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.33.53:568][791]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.04.18-04.33.59:611][230]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.33.59:622][230]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.33.59:648][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.04.18-04.34.00:794][296]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.34.00:810][296]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.34.00:837][296]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.04.18-04.34.04:753][530]LogMaterialEditor: Applying material F_CobbleStone_Layer
+[2016.04.18-04.34.05:420][530]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.34.05:474][530]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.34.05:541][530]LogMaterial: 0.000743 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.34.05:554][530]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2016.04.18-04.34.07:206][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Functions/F_CobbleStone_Layer" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_CobbleStone_Layer.uasset" SILENT=true
+[2016.04.18-04.34.07:324][612]LogSavePackage: Save=25.069290ms
+[2016.04.18-04.34.07:324][612]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/F_CobbleStone_Layer5D8B8C7848F9A6796DAC1A9438F51D93.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_CobbleStone_Layer.uasset'
+[2016.04.18-04.34.07:328][612]LogSavePackage: Total save time: 121.243026ms
+[2016.04.18-04.34.07:328][612]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_CobbleStone_Layer.uasset
+[2016.04.18-04.34.30:663][473]LogMaterialEditor: Applying material F_CobbleStone_Layer
+[2016.04.18-04.34.31:249][473]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.34.31:299][473]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.34.31:320][473]LogMaterial: 0.000358 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.34.31:328][473]LogMaterial: Missing cached shader map for material Material_4, compiling. 
+[2016.04.18-04.34.35:192][707]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.34.35:203][707]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.34.35:219][707]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.34.35:233][707]LogMaterial: 0.000028 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.34.35:262][707]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_2, compiling. 
+[2016.04.18-04.34.35:266][707]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_4, compiling. 
+[2016.04.18-04.34.35:270][707]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_4, compiling. 
+[2016.04.18-04.34.35:275][707]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_5, compiling. 
+[2016.04.18-04.34.35:279][707]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_5, compiling. 
+[2016.04.18-04.34.35:285][707]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_6, compiling. 
+[2016.04.18-04.34.35:289][707]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_7, compiling. 
+[2016.04.18-04.34.35:293][707]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_2, compiling. 
+[2016.04.18-04.34.35:297][707]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_3, compiling. 
+[2016.04.18-04.34.35:310][707]LogMaterial: Missing cached shader map for material Material_7, compiling. 
+[2016.04.18-04.34.41:219][952]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.34.41:234][952]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.34.45:217][ 80]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.34.45:230][ 80]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.34.51:000][515]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.34.51:010][515]LogMaterial: 0.000149 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.34.51:012][515]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2016.04.18-04.34.55:621][857]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.34.55:632][857]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.34.55:658][857]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2016.04.18-04.34.56:500][908]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.34.56:514][908]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.34.56:544][908]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2016.04.18-04.34.58:341][ 13]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.34.58:358][ 13]LogMaterial: 0.000025 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.34.58:388][ 13]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2016.04.18-04.35.00:978][170]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.35.00:995][170]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.01:023][170]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2016.04.18-04.35.02:434][256]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.35.02:451][256]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.02:480][256]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2016.04.18-04.35.04:536][372]LogEditorTransaction: Undo Move Node
+[2016.04.18-04.35.04:556][372]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.35.04:572][372]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.04:586][372]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.35.04:605][372]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.08:041][549]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.35.08:057][549]LogMaterial: 0.000069 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.08:063][549]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.04.18-04.35.12:217][792]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.35.12:237][792]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.12:267][792]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.04.18-04.35.14:053][890]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.35.14:069][890]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.14:094][890]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.04.18-04.35.16:746][ 41]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.35.16:764][ 41]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.16:793][ 41]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.04.18-04.35.17:575][ 84]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.35.17:593][ 84]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.17:623][ 84]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.04.18-04.35.18:279][119]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.35.18:294][119]LogMaterial: 0.000189 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.18:324][119]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.04.18-04.35.19:216][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Functions/F_CobbleStone_Layer" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_CobbleStone_Layer.uasset" SILENT=true
+[2016.04.18-04.35.19:279][163]LogSavePackage: Save=21.303333ms
+[2016.04.18-04.35.19:279][163]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/F_CobbleStone_Layer8575606942B5F36DB15398B2A76A1971.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_CobbleStone_Layer.uasset'
+[2016.04.18-04.35.19:281][163]LogSavePackage: Total save time: 27.544487ms
+[2016.04.18-04.35.19:281][163]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_CobbleStone_Layer.uasset
+[2016.04.18-04.35.20:538][233]LogMaterialEditor: Applying material F_Ground_Layer
+[2016.04.18-04.35.21:249][233]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.35.21:298][233]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.21:324][233]LogMaterial: 0.000586 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.21:337][233]LogMaterial: Missing cached shader map for material Material_8, compiling. 
+[2016.04.18-04.35.22:155][278]LogEditorTransaction: Undo Edit B
+[2016.04.18-04.35.22:176][278]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.35.22:192][278]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.22:202][278]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.35.22:221][278]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.22:251][278]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.04.18-04.35.23:536][338]LogMaterialEditor: Applying material F_Ground_Layer
+[2016.04.18-04.35.24:400][338]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.35.24:487][338]LogMaterial: 0.000124 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.24:505][338]LogMaterial: 0.000432 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.24:519][338]LogMaterial: Missing cached shader map for material Material_9, compiling. 
+[2016.04.18-04.35.25:148][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Functions/F_Ground_Layer" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Ground_Layer.uasset" SILENT=true
+[2016.04.18-04.35.25:176][369]LogSavePackage: Save=21.219992ms
+[2016.04.18-04.35.25:176][369]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/F_Ground_Layer74AC878A4E09EE59AD7FD8BF395F35DC.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Ground_Layer.uasset'
+[2016.04.18-04.35.25:178][369]LogSavePackage: Total save time: 28.678007ms
+[2016.04.18-04.35.25:178][369]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Ground_Layer.uasset
+[2016.04.18-04.35.31:117][696]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.35.31:136][696]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.31:166][696]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.04.18-04.35.33:942][848]LogMaterialEditor: Applying material F_Ground_Layer
+[2016.04.18-04.35.34:826][848]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.35.34:899][848]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.34:918][848]LogMaterial: 0.000542 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.34:934][848]LogMaterial: Missing cached shader map for material Material_10, compiling. 
+[2016.04.18-04.35.42:877][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Functions/F_Ground_Layer" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Ground_Layer.uasset" SILENT=true
+[2016.04.18-04.35.42:896][356]LogSavePackage: Save=15.875890ms
+[2016.04.18-04.35.42:896][356]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/F_Ground_Layer3733557940BE2F810DA18086EF240ADA.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Ground_Layer.uasset'
+[2016.04.18-04.35.42:897][356]LogSavePackage: Total save time: 19.308068ms
+[2016.04.18-04.35.42:897][356]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Ground_Layer.uasset
+[2016.04.18-04.35.44:984][485]LogMaterial: Missing cached shader map for material Material_12, compiling. 
+[2016.04.18-04.35.44:996][485]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.45:007][485]LogMaterial: Missing cached shader map for material Material_12, compiling. 
+[2016.04.18-04.35.45:017][485]LogMaterial: 0.000131 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.45:044][485]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_2, compiling. 
+[2016.04.18-04.35.45:048][485]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_4, compiling. 
+[2016.04.18-04.35.45:055][485]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_4, compiling. 
+[2016.04.18-04.35.45:059][485]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_5, compiling. 
+[2016.04.18-04.35.45:063][485]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_5, compiling. 
+[2016.04.18-04.35.45:067][485]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_6, compiling. 
+[2016.04.18-04.35.45:070][485]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_7, compiling. 
+[2016.04.18-04.35.45:074][485]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_2, compiling. 
+[2016.04.18-04.35.45:078][485]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_3, compiling. 
+[2016.04.18-04.35.45:090][485]LogMaterial: Missing cached shader map for material Material_13, compiling. 
+[2016.04.18-04.35.47:771][602]LogMaterial: Missing cached shader map for material Material_15, compiling. 
+[2016.04.18-04.35.47:789][602]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.47:806][602]LogMaterial: Missing cached shader map for material Material_15, compiling. 
+[2016.04.18-04.35.47:824][602]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.47:853][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_2, compiling. 
+[2016.04.18-04.35.47:859][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_4, compiling. 
+[2016.04.18-04.35.47:865][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_4, compiling. 
+[2016.04.18-04.35.47:869][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_5, compiling. 
+[2016.04.18-04.35.47:875][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_5, compiling. 
+[2016.04.18-04.35.47:883][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_6, compiling. 
+[2016.04.18-04.35.47:888][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_7, compiling. 
+[2016.04.18-04.35.47:893][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_2, compiling. 
+[2016.04.18-04.35.47:899][602]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_3, compiling. 
+[2016.04.18-04.35.47:937][602]LogMaterial: Missing cached shader map for material Material_16, compiling. 
+[2016.04.18-04.35.53:502][927]LogMaterial: Missing cached shader map for material Material_12, compiling. 
+[2016.04.18-04.35.53:520][927]LogMaterial: 0.000166 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.35.53:523][927]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_20, compiling. 
+[2016.04.18-04.35.53:528][927]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_21, compiling. 
+[2016.04.18-04.36.01:280][283]LogMaterial: Missing cached shader map for material Material_12, compiling. 
+[2016.04.18-04.36.01:292][283]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.01:342][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_20, compiling. 
+[2016.04.18-04.36.01:345][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_21, compiling. 
+[2016.04.18-04.36.10:279][791]LogMaterial: Missing cached shader map for material Material_12, compiling. 
+[2016.04.18-04.36.10:290][791]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.12:026][887]LogMaterial: Missing cached shader map for material Material_12, compiling. 
+[2016.04.18-04.36.12:042][887]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.12:070][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_20, compiling. 
+[2016.04.18-04.36.13:922][991]LogMaterial: Missing cached shader map for material Material_12, compiling. 
+[2016.04.18-04.36.13:934][991]LogMaterial: 0.000043 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.13:966][991]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_20, compiling. 
+[2016.04.18-04.36.18:835][334]LogMaterial: Missing cached shader map for material Material_12, compiling. 
+[2016.04.18-04.36.18:845][334]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.18:875][334]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_21, compiling. 
+[2016.04.18-04.36.21:053][460]LogMaterial: Missing cached shader map for material Material_12, compiling. 
+[2016.04.18-04.36.21:072][460]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.21:100][460]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_21, compiling. 
+[2016.04.18-04.36.23:685][606]LogMaterialEditor: Applying material F_Rock_Layer
+[2016.04.18-04.36.24:362][606]LogMaterial: Missing cached shader map for material Material_12, compiling. 
+[2016.04.18-04.36.24:413][606]LogMaterial: 0.000172 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.24:474][606]LogMaterial: 0.000556 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.24:484][606]LogMaterial: Missing cached shader map for material Material_17, compiling. 
+[2016.04.18-04.36.25:902][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Functions/F_Rock_Layer" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Rock_Layer.uasset" SILENT=true
+[2016.04.18-04.36.25:934][675]LogSavePackage: Save=26.012320ms
+[2016.04.18-04.36.25:934][675]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/F_Rock_LayerC56C36E34FFD170DD74A71AAF36C8CAA.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Rock_Layer.uasset'
+[2016.04.18-04.36.25:936][675]LogSavePackage: Total save time: 32.863952ms
+[2016.04.18-04.36.25:936][675]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Rock_Layer.uasset
+[2016.04.18-04.36.29:520][874]LogMaterial: Missing cached shader map for material Material_15, compiling. 
+[2016.04.18-04.36.29:534][874]LogMaterial: 0.000140 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.29:536][874]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_22, compiling. 
+[2016.04.18-04.36.29:540][874]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_23, compiling. 
+[2016.04.18-04.36.36:966][289]LogMaterial: Missing cached shader map for material Material_15, compiling. 
+[2016.04.18-04.36.36:979][289]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.37:031][289]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_22, compiling. 
+[2016.04.18-04.36.37:035][289]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_23, compiling. 
+[2016.04.18-04.36.40:115][405]LogMaterial: Missing cached shader map for material Material_15, compiling. 
+[2016.04.18-04.36.40:127][405]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.41:545][479]LogMaterial: Missing cached shader map for material Material_15, compiling. 
+[2016.04.18-04.36.41:565][479]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.41:594][479]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_23, compiling. 
+[2016.04.18-04.36.44:746][658]LogMaterial: Missing cached shader map for material Material_15, compiling. 
+[2016.04.18-04.36.44:759][658]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.44:789][658]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_23, compiling. 
+[2016.04.18-04.36.50:198][944]LogMaterial: Missing cached shader map for material Material_15, compiling. 
+[2016.04.18-04.36.50:209][944]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.50:236][944]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_22, compiling. 
+[2016.04.18-04.36.51:796][ 35]LogMaterial: Missing cached shader map for material Material_15, compiling. 
+[2016.04.18-04.36.51:813][ 35]LogMaterial: 0.000028 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.51:843][ 35]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_22, compiling. 
+[2016.04.18-04.36.53:096][107]LogMaterialEditor: Applying material F_Sand_Layer
+[2016.04.18-04.36.53:938][107]LogMaterial: Missing cached shader map for material Material_15, compiling. 
+[2016.04.18-04.36.54:034][107]LogMaterial: 0.000148 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.54:094][107]LogMaterial: 0.000637 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.36.54:115][107]LogMaterial: Missing cached shader map for material Material_18, compiling. 
+[2016.04.18-04.36.56:229][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Functions/F_Sand_Layer" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Sand_Layer.uasset" SILENT=true
+[2016.04.18-04.36.56:255][216]LogSavePackage: Save=20.754021ms
+[2016.04.18-04.36.56:255][216]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/F_Sand_LayerB78F505A4A5DAEFBC04A738E6CB34FB0.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Sand_Layer.uasset'
+[2016.04.18-04.36.56:257][216]LogSavePackage: Total save time: 26.975464ms
+[2016.04.18-04.36.56:257][216]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Sand_Layer.uasset
+[2016.04.18-04.38.07:487][439]LogMaterial: Missing cached shader map for material Material_20, compiling. 
+[2016.04.18-04.38.07:490][439]LogMaterial: 0.000163 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.38.07:496][439]LogMaterial: Missing cached shader map for material Material_20, compiling. 
+[2016.04.18-04.38.07:498][439]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.38.07:523][439]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2016.04.18-04.38.07:528][439]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_0, compiling. 
+[2016.04.18-04.38.07:532][439]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_1, compiling. 
+[2016.04.18-04.38.07:537][439]LogMaterial: Missing cached shader map for material Material_21, compiling. 
+[2016.04.18-04.38.56:255][808]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.38.56:322][808]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.38.56:327][808]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.38.57:584][871]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.38.57:584][871]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.38.57:584][871]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.39.16:815][558]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.39.16:822][558]LogMaterial: 0.000218 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.39.17:741][625]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.39.17:741][625]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.39.17:741][625]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.39.18:451][690]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-04.39.19:002][690]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.39.19:021][690]LogMaterial: 0.000289 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.39.19:046][690]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.39.19:076][690]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.39.19:087][690]LogMaterial: 0.000888 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.39.21:971][916]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.18-04.39.21:971][916]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.39.21:971][916]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-04.39.36:645][232]LogSavePackage: Save=10.233729ms
+[2016.04.18-04.39.36:645][232]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural0766E7664E091CF70F3E2CB73008B886.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-04.39.36:646][232]LogSavePackage: Total save time: 14.909461ms
+[2016.04.18-04.39.36:646][232]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-04.42.22:676][675]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Landscape' took 0.015
+[2016.04.18-04.43.46:596][394]LogMaterial: Missing cached shader map for material Material_22, compiling. 
+[2016.04.18-04.43.47:780][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Functions/F_Height_Blend" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Height_Blend.uasset" SILENT=true
+[2016.04.18-04.43.47:791][442]LogSavePackage: Save=9.980831ms
+[2016.04.18-04.43.47:791][442]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/F_Height_Blend7B7F7DD149C71DE11B86C892798AF3AE.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Height_Blend.uasset'
+[2016.04.18-04.43.47:792][442]LogSavePackage: Total save time: 11.596750ms
+[2016.04.18-04.43.47:792][442]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Height_Blend.uasset
+[2016.04.18-04.44.01:267][ 13]LogMaterial: Missing cached shader map for material Material_24, compiling. 
+[2016.04.18-04.44.01:270][ 13]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.44.01:273][ 13]LogMaterial: Missing cached shader map for material Material_24, compiling. 
+[2016.04.18-04.44.01:276][ 13]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.44.01:306][ 13]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2016.04.18-04.44.01:309][ 13]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_0, compiling. 
+[2016.04.18-04.44.01:312][ 13]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_1, compiling. 
+[2016.04.18-04.47.30:999][138]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.47.31:005][138]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.47.32:373][230]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.47.32:373][230]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.47.32:373][230]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.47.39:006][840]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.47.39:013][840]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.47.39:897][897]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.47.39:897][897]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.47.39:897][897]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.47.42:820][136]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.47.42:826][136]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.47.43:734][192]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.47.43:734][192]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.47.43:734][192]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.48.00:081][584]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-04.48.00:635][584]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.48.00:657][584]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.48.00:691][584]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.48.00:725][584]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.48.00:739][584]LogMaterial: 0.001003 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.48.01:330][621]LogMaterialEditor: Saving and Compiling material M_Height_Slope_Procedural
+[2016.04.18-04.48.02:755][621]LogSavePackage: Save=10.980515ms
+[2016.04.18-04.48.02:755][621]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural0DB2D1364DFF67C93EA570BE6859C4A0.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-04.48.02:756][621]LogSavePackage: Total save time: 15.465755ms
+[2016.04.18-04.48.02:756][621]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-04.48.02:761][621]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.18-04.48.02:761][621]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.48.02:761][621]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-04.49.03:796][661]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_119.EdGraphPin_6119''
+[2016.04.18-04.49.03:797][661]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_119.EdGraphPin_6120''
+[2016.04.18-04.49.03:799][661]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_117.MaterialExpressionScalarParameter_1')'
+[2016.04.18-04.49.03:799][661]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'MaterialGraphNode_118.MaterialExpressionConstant_0')'
+[2016.04.18-04.49.03:812][661]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.49.03:818][661]LogMaterial: 0.000308 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.49.05:381][766]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.49.05:381][766]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.49.05:381][766]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.49.35:636][193]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-04.49.36:185][193]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.49.36:204][193]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.49.36:235][193]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.49.36:256][193]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.49.36:264][193]LogMaterial: 0.000605 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.49.38:605][244]LogSavePackage: Save=12.046709ms
+[2016.04.18-04.49.38:605][244]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_ProceduralD6AB6EF94E75035B24851AB25E32CFD8.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-04.49.38:607][244]LogSavePackage: Total save time: 16.429719ms
+[2016.04.18-04.49.38:607][244]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-04.49.38:611][244]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.18-04.49.38:611][244]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.49.38:611][244]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-04.50.04:972][233]LogMaterial: Missing cached shader map for material Material_24, compiling. 
+[2016.04.18-04.50.04:975][233]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.50.05:000][233]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_1, compiling. 
+[2016.04.18-04.50.05:052][237]LogMaterialEditor: Saving and Compiling material F_Height_Blend
+[2016.04.18-04.50.05:787][237]LogMaterial: Missing cached shader map for material Material_24, compiling. 
+[2016.04.18-04.50.05:800][237]LogMaterial: 0.000111 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.50.05:825][237]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.50.05:853][237]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.50.05:871][237]LogMaterial: 0.001090 seconds spent updating 2 materials, 2 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.50.05:915][237]LogMaterial: Missing cached shader map for material Material_25, compiling. 
+[2016.04.18-04.50.05:941][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Functions/F_Height_Blend" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Height_Blend.uasset" SILENT=true
+[2016.04.18-04.50.06:234][237]LogSavePackage: Save=288.087250ms
+[2016.04.18-04.50.06:234][237]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/F_Height_BlendC5D9755241598B6740B7A4A61B954CC8.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Height_Blend.uasset'
+[2016.04.18-04.50.06:237][237]LogSavePackage: Total save time: 294.578426ms
+[2016.04.18-04.50.06:237][237]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Height_Blend.uasset
+[2016.04.18-04.50.07:504][311]LogMaterialEditor: Saving and Compiling material F_Height_Blend
+[2016.04.18-04.50.07:543][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Functions/F_Height_Blend" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Height_Blend.uasset" SILENT=true
+[2016.04.18-04.50.07:551][311]LogSavePackage: Save=3.879268ms
+[2016.04.18-04.50.07:551][311]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/F_Height_BlendA3BB923247972C5019CE1FAC278F71AE.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Height_Blend.uasset'
+[2016.04.18-04.50.07:552][311]LogSavePackage: Total save time: 7.891145ms
+[2016.04.18-04.50.07:552][311]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Height_Blend.uasset
+[2016.04.18-04.50.07:961][334]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.18-04.50.07:961][334]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.50.07:961][334]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-04.50.34:880][418]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.50.34:885][418]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.50.36:364][509]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.50.36:364][509]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.50.36:364][509]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.50.56:111][125]LogMaterial: Missing cached shader map for material Material_20, compiling. 
+[2016.04.18-04.50.56:115][125]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.50.56:144][125]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_1, compiling. 
+[2016.04.18-04.51.08:888][162]LogMaterial: Missing cached shader map for material Material_20, compiling. 
+[2016.04.18-04.51.08:891][162]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.51.08:917][162]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_0, compiling. 
+[2016.04.18-04.51.10:522][271]LogMaterialEditor: Applying material F_Slope_Blend
+[2016.04.18-04.51.11:102][271]LogMaterial: Missing cached shader map for material Material_20, compiling. 
+[2016.04.18-04.51.11:111][271]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.51.11:135][271]LogMaterial: 0.000764 seconds spent updating 0 materials, 0 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.51.11:147][271]LogMaterial: Missing cached shader map for material Material_26, compiling. 
+[2016.04.18-04.51.11:569][296]LogMaterialEditor: Saving and Compiling material F_Slope_Blend
+[2016.04.18-04.51.11:614][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Functions/F_Slope_Blend" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Slope_Blend.uasset" SILENT=true
+[2016.04.18-04.51.11:631][296]LogSavePackage: Save=11.967473ms
+[2016.04.18-04.51.11:631][296]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/F_Slope_Blend1283194147BF33143102619C0C044088.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Slope_Blend.uasset'
+[2016.04.18-04.51.11:633][296]LogSavePackage: Total save time: 17.957367ms
+[2016.04.18-04.51.11:633][296]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Slope_Blend.uasset
+[2016.04.18-04.51.25:830][328]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.51.25:847][328]LogMaterial: 0.000099 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.51.26:722][370]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.51.26:722][370]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.51.26:722][370]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.51.27:002][392]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.51.27:008][392]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.51.27:869][444]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.51.27:869][444]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.51.27:869][444]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.51.29:645][592]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.51.29:650][592]LogMaterial: 0.000153 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.51.30:530][643]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.51.30:530][643]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.51.30:530][643]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.51.31:113][695]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.51.31:118][695]LogMaterial: 0.000180 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.51.32:012][750]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.51.32:012][750]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.51.32:012][750]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.51.45:283][871]LogSavePackage: Save=11.491238ms
+[2016.04.18-04.51.45:283][871]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural1AEE2A6544908835354BC19E52703BB5.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-04.51.45:285][871]LogSavePackage: Total save time: 15.352033ms
+[2016.04.18-04.51.45:285][871]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-04.51.46:396][953]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-04.51.46:947][953]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.51.46:968][953]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.51.47:002][953]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.51.47:029][953]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.51.47:037][953]LogMaterial: 0.000693 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.51.47:671][989]LogMaterialEditor: Saving and Compiling material M_Height_Slope_Procedural
+[2016.04.18-04.51.49:046][989]LogSavePackage: Save=11.052361ms
+[2016.04.18-04.51.49:046][989]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural873CD7804601464291184FBD96CDC386.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-04.51.49:048][989]LogSavePackage: Total save time: 15.021950ms
+[2016.04.18-04.51.49:048][989]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-04.51.49:053][989]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.18-04.51.49:053][989]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.51.49:053][989]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-04.52.43:683][266]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_136.EdGraphPin_6187''
+[2016.04.18-04.52.43:684][266]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_136.EdGraphPin_6188''
+[2016.04.18-04.52.43:686][266]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_134.MaterialExpressionScalarParameter_7')'
+[2016.04.18-04.52.43:686][266]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'MaterialGraphNode_135.MaterialExpressionConstant_3')'
+[2016.04.18-04.52.43:688][266]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_141.EdGraphPin_6196''
+[2016.04.18-04.52.43:688][266]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'MaterialGraphNode_141.EdGraphPin_6197''
+[2016.04.18-04.52.43:690][266]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_139.MaterialExpressionScalarParameter_9')'
+[2016.04.18-04.52.43:690][266]LogProperty:Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant'MaterialGraphNode_140.MaterialExpressionConstant_4')'
+[2016.04.18-04.52.43:704][266]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.52.43:709][266]LogMaterial: 0.000154 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.52.45:173][360]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.52.45:173][360]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.52.45:173][360]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.54.31:977][559]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.54.31:982][559]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.54.33:292][644]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.54.33:292][644]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.54.33:292][644]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.55.18:922][ 45]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.55.18:927][ 45]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.55.20:247][131]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.55.20:247][131]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.55.20:248][131]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.55.42:147][734]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.55.42:152][734]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.55.42:168][734]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.55.42:175][734]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.55.42:190][734]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.55.42:195][734]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.55.42:214][734]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.55.42:220][734]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.55.43:721][821]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.55.43:721][821]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.55.43:721][821]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.56.03:434][402]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.03:439][402]LogMaterial: 0.000184 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.04:518][465]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.56.04:518][465]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.56.04:518][465]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.56.05:227][520]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.05:233][520]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.06:080][567]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.56.06:080][567]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.56.06:080][567]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.56.08:116][734]LogEditorTransaction: Undo Move Node
+[2016.04.18-04.56.08:139][734]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.56.08:165][734]LogMaterial: 0.000169 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.08:170][734]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.56.08:186][734]LogMaterial: 0.000187 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.08:236][734]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_18, compiling. 
+[2016.04.18-04.56.08:241][734]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_19, compiling. 
+[2016.04.18-04.56.08:254][734]LogMaterial: Missing cached shader map for material Material_12, compiling. 
+[2016.04.18-04.56.08:272][734]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.08:284][734]LogMaterial: Missing cached shader map for material Material_15, compiling. 
+[2016.04.18-04.56.08:300][734]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.08:310][734]LogMaterial: Missing cached shader map for material Material_20, compiling. 
+[2016.04.18-04.56.08:313][734]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.08:347][734]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.08:357][734]LogMaterial: 0.000115 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.08:371][734]LogMaterial: Missing cached shader map for material Material_24, compiling. 
+[2016.04.18-04.56.08:376][734]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.10:068][811]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.10:078][811]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.11:470][882]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.56.11:470][882]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.56.11:470][882]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.56.12:141][918]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.12:150][918]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.14:147][ 19]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-04.56.14:944][ 19]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.14:973][ 19]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.15:018][ 19]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.15:055][ 19]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.15:064][ 19]LogMaterial: 0.000805 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.22:428][423]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.18-04.56.22:428][423]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.56.22:428][423]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-04.56.34:655][291]LogSavePackage: Save=13.632245ms
+[2016.04.18-04.56.34:655][291]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural62DA288E4D15209D84CAD5AA12444E6C.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-04.56.34:656][291]LogSavePackage: Total save time: 19.524019ms
+[2016.04.18-04.56.34:657][291]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-04.56.46:801][179]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.46:806][179]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.48:073][254]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.56.48:073][254]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.56.48:073][254]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.56.49:298][349]LogEditorTransaction: Undo Move Node
+[2016.04.18-04.56.49:312][349]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-04.56.49:337][349]LogMaterial: 0.000130 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.49:340][349]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-04.56.49:352][349]LogMaterial: 0.000150 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.49:357][349]LogMaterial: Missing cached shader map for material Material_12, compiling. 
+[2016.04.18-04.56.49:369][349]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.49:375][349]LogMaterial: Missing cached shader map for material Material_15, compiling. 
+[2016.04.18-04.56.49:392][349]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.49:394][349]LogMaterial: Missing cached shader map for material Material_20, compiling. 
+[2016.04.18-04.56.49:397][349]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.49:418][349]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.49:424][349]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.49:429][349]LogMaterial: Missing cached shader map for material Material_24, compiling. 
+[2016.04.18-04.56.49:432][349]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.51:181][426]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.51:187][426]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.52:434][489]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.56.52:434][489]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.56.52:434][489]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.56.53:233][533]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.53:243][533]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.55:179][633]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.55:190][633]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.55:281][638]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.56.55:281][638]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.56.55:281][638]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.56.58:722][804]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-04.56.59:484][804]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.59:514][804]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.56.59:549][804]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.59:583][804]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.56.59:592][804]LogMaterial: 0.000763 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.57.03:902][ 47]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.18-04.57.03:902][ 47]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.57.03:902][ 47]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-04.57.22:438][391]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.57.22:444][391]LogMaterial: 0.000305 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.57.23:729][476]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.57.23:729][476]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.57.23:729][476]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.57.34:612][281]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.57.34:618][281]LogMaterial: 0.000137 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.57.34:709][286]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.57.34:717][286]LogMaterial: 0.000046 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.57.35:718][345]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-04.57.35:718][345]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.57.35:718][345]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-04.57.50:947][484]LogSavePackage: Save=14.413928ms
+[2016.04.18-04.57.50:947][484]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural2461686C47813B98BBAD36989D5CAFC8.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-04.57.50:948][484]LogSavePackage: Total save time: 18.693890ms
+[2016.04.18-04.57.50:948][484]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-04.57.52:587][606]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-04.57.53:138][606]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.57.53:157][606]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.57.53:194][606]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.57.53:234][606]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-04.57.53:246][606]LogMaterial: 0.000739 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-04.57.54:296][668]LogMaterialEditor: Saving and Compiling material M_Height_Slope_Procedural
+[2016.04.18-04.57.55:390][668]LogSavePackage: Save=13.409728ms
+[2016.04.18-04.57.55:390][668]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_ProceduralD194D8D24A87517115113D8A668FDA1E.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-04.57.55:391][668]LogSavePackage: Total save time: 17.155569ms
+[2016.04.18-04.57.55:391][668]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-04.57.55:396][668]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.18-04.57.55:396][668]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-04.57.55:396][668]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-05.03.06:245][378]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.03.06:251][378]LogMaterial: 0.000287 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.03.07:482][434]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.03.07:482][434]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.03.07:482][434]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.03.11:308][764]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.03.11:313][764]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.03.12:209][821]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.03.12:209][821]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.03.12:209][821]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.03.20:967][520]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.03.20:972][520]LogMaterial: 0.000113 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.03.21:833][574]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.03.21:833][574]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.03.21:833][574]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.04.00:270][799]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.04.00:275][799]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.04.01:557][872]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.04.01:557][872]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.04.01:557][872]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.07.21:337][338]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.07.21:342][338]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.07.22:869][435]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.07.22:869][435]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.07.22:869][435]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.07.34:037][259]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.07.34:042][259]LogMaterial: 0.000144 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.07.34:944][309]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.07.34:944][309]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.07.34:944][309]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.07.35:937][389]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.07.35:942][389]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.07.36:788][437]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.07.36:789][437]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.07.36:789][437]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.07.46:671][155]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.07.46:677][155]LogMaterial: 0.000144 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.07.47:551][205]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.07.47:551][205]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.07.47:551][205]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.08.06:255][554]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.08.06:260][554]LogMaterial: 0.000095 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.08.07:057][597]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.08.07:058][597]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.08.07:058][597]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.08.16:129][298]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.08.16:135][298]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.08.16:983][347]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.08.16:983][347]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.08.16:983][347]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.08.24:617][965]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.08.24:622][965]LogMaterial: 0.000155 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.08.25:536][ 21]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.08.25:537][ 21]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.08.25:537][ 21]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.08.32:551][657]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.08.32:556][657]LogMaterial: 0.000135 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.08.33:453][714]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.08.33:453][714]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.08.33:454][714]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.08.40:563][363]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-05.08.41:138][363]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.08.41:158][363]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.08.41:195][363]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.08.41:231][363]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.08.41:243][363]LogMaterial: 0.000713 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.08.43:917][540]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.18-05.08.43:917][540]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.08.43:917][540]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-05.08.47:445][808]LogSavePackage: Save=16.074184ms
+[2016.04.18-05.08.47:445][808]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_ProceduralBA28E5DE4562B73B5B0A3C888CE87116.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-05.08.47:447][808]LogSavePackage: Total save time: 21.110374ms
+[2016.04.18-05.08.47:447][808]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-05.08.48:544][888]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-05.08.49:102][888]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.08.49:121][888]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.08.49:158][888]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.08.49:189][888]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.08.49:198][888]LogMaterial: 0.000850 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.08.49:630][914]LogMaterialEditor: Saving and Compiling material M_Height_Slope_Procedural
+[2016.04.18-05.08.51:153][914]LogSavePackage: Save=15.873015ms
+[2016.04.18-05.08.51:153][914]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_ProceduralBD2F6B514009272988E56782F9E710BF.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-05.08.51:154][914]LogSavePackage: Total save time: 19.941956ms
+[2016.04.18-05.08.51:154][914]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-05.08.51:158][914]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.18-05.08.51:158][914]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.08.51:158][914]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-05.12.53:757][842]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.12.53:764][842]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.12.55:028][911]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.12.55:028][911]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.12.55:028][911]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.12.55:155][917]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.12.55:161][917]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.12.55:993][956]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.12.55:993][956]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.12.55:993][956]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.12.57:516][ 59]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.12.57:522][ 59]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.12.58:345][ 93]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.12.58:345][ 93]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.12.58:345][ 93]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.12.59:912][186]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.12.59:917][186]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.13.00:742][221]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.13.00:742][221]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.13.00:742][221]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.13.10:888][949]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.13.10:893][949]LogMaterial: 0.000126 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.13.11:716][994]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.13.11:716][994]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.13.11:716][994]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.13.20:824][589]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.13.20:831][589]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.13.21:643][628]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.13.21:643][628]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.13.21:643][628]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.13.31:754][342]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.13.31:761][342]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.13.32:634][389]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.13.32:634][389]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.13.32:634][389]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.13.47:771][597]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.13.47:778][597]LogMaterial: 0.000142 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.13.48:699][655]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.13.48:699][655]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.13.48:699][655]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.15.21:975][811]LogMaterial: Missing cached shader map for material Material_28, compiling. 
+[2016.04.18-05.15.21:976][811]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_28 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.04.18-05.15.21:976][811]LogMaterial:Warning: 	Missing Preview connection for function input 'Base Material'
+[2016.04.18-05.15.21:976][811]LogMaterial:Warning: 	Missing Preview connection for function input 'Top Material'
+[2016.04.18-05.15.21:976][811]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.15.21:990][811]LogMaterial: Missing cached shader map for material Material_28, compiling. 
+[2016.04.18-05.15.21:990][811]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_28 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.04.18-05.15.21:990][811]LogMaterial:Warning: 	Missing Preview connection for function input 'Base Material'
+[2016.04.18-05.15.21:990][811]LogMaterial:Warning: 	Missing Preview connection for function input 'Top Material'
+[2016.04.18-05.15.21:990][811]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.15.22:018][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_6, compiling. 
+[2016.04.18-05.15.22:020][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_36, compiling. 
+[2016.04.18-05.15.22:024][811]MaterialEditorStats:Error: Error [SM5] Missing Preview connection for function input 'Base Material'
+[2016.04.18-05.15.22:024][811]MaterialEditorStats:Error: Error [SM5] Missing Preview connection for function input 'Top Material'
+[2016.04.18-05.15.47:440][834]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-05.15.47:993][834]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.15.48:012][834]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.15.48:047][834]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.15.48:071][834]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.15.48:079][834]LogMaterial: 0.000729 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.15.48:804][879]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009E10E8B240
+[2016.04.18-05.15.50:415][879]LogSavePackage: Save=16.341862ms
+[2016.04.18-05.15.50:415][879]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural03934AA84E885EC6F3B642B76178B7F0.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-05.15.50:416][879]LogSavePackage: Total save time: 22.582602ms
+[2016.04.18-05.15.50:416][879]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-05.15.50:421][879]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.18-05.15.50:421][879]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.15.50:421][879]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-05.18.27:550][889]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.18.27:555][889]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.18.28:812][959]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.18.28:812][959]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.18.28:812][959]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.18.33:815][311]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.18.33:820][311]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.18.34:683][355]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.18.34:683][355]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.18.34:683][355]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.18.38:453][643]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.18.38:459][643]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.18.38:639][651]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.18.38:647][651]LogMaterial: 0.000032 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.18.38:811][658]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.18.38:819][658]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.18.39:324][685]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.18.39:333][685]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.18.40:240][733]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.18.40:246][733]LogMaterial: 0.000149 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.18.40:368][737]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.18.40:368][737]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.18.40:368][737]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.18.47:627][291]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.18.47:632][291]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.18.48:520][345]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.18.48:520][345]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.18.48:520][345]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.18.50:600][505]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.18.50:605][505]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.18.51:443][555]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.18.51:443][555]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.18.51:443][555]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.19.00:681][266]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.19.00:687][266]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.19.01:532][317]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.19.01:532][317]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.19.01:532][317]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.19.01:616][323]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.19.01:621][323]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.19.02:475][371]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.19.02:475][371]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.19.02:475][371]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.19.04:089][506]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.19.04:095][506]LogMaterial: 0.000395 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.19.04:937][554]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.19.04:937][554]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.19.04:937][554]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.19.11:607][ 64]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.19.11:614][ 64]LogMaterial: 0.000275 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.19.12:435][110]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.19.12:435][110]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.19.12:435][110]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.19.18:642][468]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.19.18:648][468]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.19.19:460][514]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.19.19:460][514]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.19.19:460][514]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.19.19:669][531]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.19.19:675][531]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.19.20:483][574]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.19.20:483][574]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.19.20:483][574]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.19.24:239][835]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.19.24:245][835]LogMaterial: 0.000161 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.19.25:045][878]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.19.25:045][878]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.19.25:045][878]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.19.26:840][  8]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.19.26:845][  8]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.19.27:673][ 56]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.19.27:673][ 56]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.19.27:673][ 56]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.19.37:897][786]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.19.37:904][786]LogMaterial: 0.000134 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.19.38:719][832]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.19.38:719][832]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.19.38:719][832]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.19.58:328][246]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.19.58:334][246]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.19.59:185][294]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.19.59:185][294]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.19.59:185][294]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.20.01:704][473]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.20.01:710][473]LogMaterial: 0.000096 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.20.02:536][520]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.20.02:536][520]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.20.02:536][520]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.20.05:738][748]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.20.05:745][748]LogMaterial: 0.000124 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.20.06:581][796]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.20.06:581][796]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.20.06:581][796]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.20.11:708][168]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.20.11:715][168]LogMaterial: 0.000106 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.20.12:529][215]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.20.12:529][215]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.20.12:529][215]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.20.21:438][867]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.20.21:443][867]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.20.22:276][914]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.20.22:276][914]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.20.22:276][914]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.20.22:421][925]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.20.22:428][925]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.20.23:265][970]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.20.23:265][970]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.20.23:265][970]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.20.23:866][ 20]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.20.23:872][ 20]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.20.24:682][ 64]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.20.24:682][ 64]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.20.24:682][ 64]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.20.27:828][294]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.20.27:836][294]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.20.28:676][341]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.20.28:676][341]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.20.28:676][341]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.21.20:773][365]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.21.20:781][365]LogMaterial: 0.000211 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.21.22:031][435]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.21.22:031][435]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.21.22:031][435]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.21.31:332][106]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.21.31:338][106]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.21.32:151][150]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.21.32:151][150]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.21.32:151][150]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.21.34:552][327]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.21.34:559][327]LogMaterial: 0.000330 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.21.35:379][374]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.21.35:379][374]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.21.35:379][374]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.21.38:672][623]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.21.38:678][623]LogMaterial: 0.000047 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.21.39:546][666]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.21.39:546][666]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.21.39:546][666]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.21.45:151][110]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.21.45:158][110]LogMaterial: 0.000197 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.21.45:989][154]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.21.45:989][154]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.21.45:989][154]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.22.03:002][493]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.22.03:007][493]LogMaterial: 0.000156 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.22.03:837][536]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.22.03:837][536]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.22.03:837][536]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.22.04:646][598]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.22.04:652][598]LogMaterial: 0.000084 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.22.05:496][642]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.22.05:496][642]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.22.05:496][642]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.22.06:532][721]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.22.06:538][721]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.22.07:397][766]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.22.07:397][766]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.22.07:397][766]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.22.08:545][856]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.22.08:552][856]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.22.09:389][900]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.22.09:389][900]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.22.09:389][900]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.22.10:570][989]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.22.10:575][989]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.22.11:397][ 31]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.22.11:397][ 31]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.22.11:397][ 31]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.22.17:730][511]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-05.22.18:287][511]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.22.18:307][511]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.22.18:352][511]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.22.18:385][511]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.22.18:398][511]LogMaterial: 0.000698 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.22.18:917][538]LogMaterialEditor: Saving and Compiling material M_Height_Slope_Procedural
+[2016.04.18-05.22.20:322][538]LogSavePackage: Save=16.765547ms
+[2016.04.18-05.22.20:322][538]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural79DDD47440294EA025997D84F0E44E42.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-05.22.20:324][538]LogSavePackage: Total save time: 22.202022ms
+[2016.04.18-05.22.20:324][538]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-05.22.20:332][538]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.18-05.22.20:332][538]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.22.20:332][538]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-05.24.53:668][587]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.24.53:675][587]LogMaterial: 0.000193 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.24.54:944][652]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.24.54:944][652]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.24.54:944][652]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.25.00:153][ 39]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.25.00:159][ 39]LogMaterial: 0.000136 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.25.01:029][ 84]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.25.01:029][ 84]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.25.01:029][ 84]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.25.13:074][943]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.25.13:079][943]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.25.13:967][989]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.25.13:967][989]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.25.13:967][989]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.25.15:719][118]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.25.15:725][118]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.25.16:608][165]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.25.16:608][165]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.25.16:608][165]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.25.19:013][338]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.25.19:019][338]LogMaterial: 0.000158 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.25.19:857][383]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.25.19:857][383]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.25.19:857][383]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.25.22:479][576]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.25.22:486][576]LogMaterial: 0.000149 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.25.23:336][620]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2016.04.18-05.25.23:336][620]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.25.23:336][620]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.18-05.25.25:242][768]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-05.25.25:799][768]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.25.25:818][768]LogMaterial: 0.000163 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.25.25:860][768]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.25.25:901][768]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.25.25:911][768]LogMaterial: 0.000773 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.25.26:528][799]LogMaterialEditor: Saving and Compiling material M_Height_Slope_Procedural
+[2016.04.18-05.25.27:970][799]LogSavePackage: Save=18.037836ms
+[2016.04.18-05.25.27:970][799]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_ProceduralADC8321642AA745A510D879E50D7F0A3.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-05.25.27:972][799]LogSavePackage: Total save time: 22.616673ms
+[2016.04.18-05.25.27:972][799]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-05.25.27:976][799]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2016.04.18-05.25.27:976][799]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2016.04.18-05.25.27:976][799]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-05.25.29:080][882]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.25.29:100][882]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.25.31:405][996]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 265 instructions
+[2016.04.18-05.25.31:405][996]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.18-05.25.31:405][996]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-05.25.31:529][  6]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-05.25.32:087][  6]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.25.32:121][  6]LogMaterial: 0.000151 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.25.32:164][  6]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.25.32:218][  6]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.25.32:243][  6]LogMaterial: 0.002926 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.25.32:982][ 43]LogMaterialEditor: Saving and Compiling material M_Height_Slope_Procedural
+[2016.04.18-05.25.37:355][ 43]LogSavePackage: Save=18.278416ms
+[2016.04.18-05.25.37:355][ 43]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural7CBD28AB4DC238B5DE47AC90D9984B54.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-05.25.37:357][ 43]LogSavePackage: Total save time: 22.666764ms
+[2016.04.18-05.25.37:357][ 43]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-05.25.37:363][ 43]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 284 instructions
+[2016.04.18-05.25.37:363][ 43]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.18-05.25.37:363][ 43]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.04.18-05.27.11:219][954]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.27.11:230][954]LogMaterial: 0.000309 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.27.13:231][ 48]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.27.13:251][ 48]LogMaterial: 0.000103 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.27.15:960][165]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 265 instructions
+[2016.04.18-05.27.15:960][165]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.18-05.27.15:960][165]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-05.27.40:971][885]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.27.40:982][885]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.27.42:498][961]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-05.27.43:360][961]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.27.43:401][961]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.27.43:438][961]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.27.43:473][961]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.27.43:488][961]LogMaterial: 0.000528 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.27.46:073][ 83]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.27.46:086][ 83]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.27.51:752][343]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 265 instructions
+[2016.04.18-05.27.51:752][343]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.18-05.27.51:752][343]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-05.28.00:771][916]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.28.00:783][916]LogMaterial: 0.000158 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.28.02:384][985]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-05.28.03:022][985]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.28.03:055][985]LogMaterial: 0.000088 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.28.03:089][985]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.28.03:134][985]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.28.03:154][985]LogMaterial: 0.000728 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.28.07:351][166]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.28.07:365][166]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.28.08:425][212]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-05.28.09:212][212]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.28.09:263][212]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.28.09:312][212]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.28.09:363][212]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.28.09:382][212]LogMaterial: 0.001008 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.28.15:775][499]LogMaterial: Missing cached shader map for material Material_30, compiling. 
+[2016.04.18-05.28.15:775][499]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_30 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.04.18-05.28.15:775][499]LogMaterial:Warning: 	Missing Preview connection for function input 'Base Material'
+[2016.04.18-05.28.15:775][499]LogMaterial:Warning: 	Missing Preview connection for function input 'Top Material'
+[2016.04.18-05.28.15:775][499]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.28.15:789][499]LogMaterial: Missing cached shader map for material Material_30, compiling. 
+[2016.04.18-05.28.15:789][499]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_30 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.04.18-05.28.15:789][499]LogMaterial:Warning: 	Missing Preview connection for function input 'Base Material'
+[2016.04.18-05.28.15:789][499]LogMaterial:Warning: 	Missing Preview connection for function input 'Top Material'
+[2016.04.18-05.28.15:790][499]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.28.15:818][499]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_6, compiling. 
+[2016.04.18-05.28.15:821][499]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_36, compiling. 
+[2016.04.18-05.28.15:824][499]MaterialEditorStats:Error: Error [SM5] Missing Preview connection for function input 'Base Material'
+[2016.04.18-05.28.15:824][499]MaterialEditorStats:Error: Error [SM5] Missing Preview connection for function input 'Top Material'
+[2016.04.18-05.28.17:542][632]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 284 instructions
+[2016.04.18-05.28.17:542][632]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.18-05.28.17:542][632]MaterialEditorStats: Info Texture samplers: 6/16
+[2016.04.18-05.28.23:113][ 23]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.28.23:129][ 23]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.28.23:131][ 23]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 265 instructions
+[2016.04.18-05.28.23:131][ 23]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.18-05.28.23:131][ 23]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.18-05.28.29:234][316]LogSavePackage: Save=21.263922ms
+[2016.04.18-05.28.29:235][316]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural00DFF64E4AFF3E577FF710A742F4207C.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-05.28.29:237][316]LogSavePackage: Total save time: 27.718149ms
+[2016.04.18-05.28.29:237][316]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-05.28.38:365][912]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.28.38:380][912]LogMaterial: 0.000210 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.28.59:403][178]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.28.59:406][178]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.29.11:886][962]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.29.11:897][962]LogMaterial: 0.000152 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.29.17:388][276]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.29.17:399][276]LogMaterial: 0.000129 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.29.22:374][564]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.29.22:384][564]LogMaterial: 0.000163 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.29.26:814][813]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.29.26:825][813]LogMaterial: 0.000177 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.29.31:895][103]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.29.31:897][103]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.32.55:248][533]LogMaterialEditor: Saving and Compiling material MatLayerBlend_Standard
+[2016.04.18-05.32.55:278][533]LogMaterial: Missing cached shader map for material Material_32, compiling. 
+[2016.04.18-05.32.55:278][533]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_32 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.04.18-05.32.55:278][533]LogMaterial:Warning: 	Missing Preview connection for function input 'Base Material'
+[2016.04.18-05.32.55:278][533]LogMaterial:Warning: 	Missing Preview connection for function input 'Top Material'
+[2016.04.18-05.32.55:303][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/Functions/MaterialLayerFunctions/MatLayerBlend_Standard" FILE="../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.uasset" SILENT=true
+[2016.04.18-05.32.55:320][533]LogSavePackage: Save=13.348967ms
+[2016.04.18-05.32.55:320][533]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/MatLayerBlend_StandardB529ED8B473CE686C244C8B6641F6E05.tmp' to '../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.uasset'
+[2016.04.18-05.32.55:321][533]LogSavePackage: Total save time: 17.618667ms
+[2016.04.18-05.32.55:321][533]LogSavePackage:Warning: Finished SavePackage ../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.uasset
+[2016.04.18-05.33.08:188][294]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.33.08:201][294]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.33.26:165][290]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.33.26:179][290]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.33.37:335][860]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.33.37:349][860]LogMaterial: 0.000184 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.33.42:893][104]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.33.42:909][104]LogMaterial: 0.000235 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.33.44:921][186]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.33.44:945][186]LogMaterial: 0.000141 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.33.46:941][266]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.33.46:967][266]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.33.51:740][451]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.33.51:764][451]LogMaterial: 0.000034 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.33.54:339][552]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.33.54:366][552]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.33.55:846][607]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.33.55:865][607]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.34.00:930][802]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.34.00:955][802]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.34.02:410][860]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.34.02:434][860]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.34.04:341][933]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.34.04:362][933]LogMaterial: 0.000048 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.34.05:112][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009EB50277E0
+[2016.04.18-05.34.19:964][725]LogMaterialEditor: Applying material M_Height_Slope_Procedural
+[2016.04.18-05.34.20:526][725]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.34.20:581][725]LogMaterial: 0.000132 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.34.20:622][725]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.34.20:647][725]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.34.20:669][725]LogMaterial: 0.002509 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.34.21:488][768]LogMaterialEditor: Saving and Compiling material M_Height_Slope_Procedural
+[2016.04.18-05.34.28:807][768]LogSavePackage: Save=20.193623ms
+[2016.04.18-05.34.28:807][768]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural78EEBBC847C7ACEB867C6985BD375065.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-05.34.28:809][768]LogSavePackage: Total save time: 25.689628ms
+[2016.04.18-05.34.28:809][768]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-05.34.28:814][768]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 377 instructions
+[2016.04.18-05.34.28:814][768]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.18-05.34.28:814][768]MaterialEditorStats: Info Texture samplers: 7/16
+[2016.04.18-05.35.21:566][751]LogSavePackage: Save=12.114450ms
+[2016.04.18-05.35.21:566][751]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural_Inst0751704F4B249EBC0322438D3EF28D64.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural_Inst.uasset'
+[2016.04.18-05.35.21:567][751]LogSavePackage: Total save time: 13.655648ms
+[2016.04.18-05.35.21:567][751]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural_Inst.uasset
+[2016.04.18-05.35.25:379][965]LogSavePackage: Save=11.698153ms
+[2016.04.18-05.35.25:379][965]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural_Inst9C45492F4102A740AC92D1A70A031DE7.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Landscape/M_Height_Slope_Procedural_Inst.uasset'
+[2016.04.18-05.35.25:381][965]LogSavePackage: Total save time: 13.277121ms
+[2016.04.18-05.35.25:381][965]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Landscape/M_Height_Slope_Procedural_Inst.uasset
+[2016.04.18-05.35.27:932][ 93]LogRenderer: Reallocating scene render targets to support 1392x924 (Frame:249135).
+[2016.04.18-05.36.49:320][967]LogSavePackage: Save=11.230950ms
+[2016.04.18-05.36.49:321][967]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural_Inst55AC8CB44924B6ED4414BF9260B95030.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Landscape/M_Height_Slope_Procedural_Inst.uasset'
+[2016.04.18-05.36.49:322][967]LogSavePackage: Total save time: 16.021632ms
+[2016.04.18-05.36.49:322][967]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Landscape/M_Height_Slope_Procedural_Inst.uasset
+[2016.04.18-05.36.50:593][ 42]LogSavePackage: Save=1.289121ms
+[2016.04.18-05.36.50:593][ 42]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural_Inst39FF59D546C8292516AD059C425E07CE.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Landscape/M_Height_Slope_Procedural_Inst.uasset'
+[2016.04.18-05.36.50:593][ 42]LogSavePackage: Total save time: 4.891679ms
+[2016.04.18-05.36.50:594][ 42]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Landscape/M_Height_Slope_Procedural_Inst.uasset
+[2016.04.18-05.36.55:173][304]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.04.18-05.36.57:412][425]LogMaterial: 0.000656 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.36.57:412][425]LogMaterial:Warning: Material /Game/Material/Parent/M_Height_Slope_Procedural.M_Height_Slope_Procedural needed to have new flag set bUsedWithLandscape !
+[2016.04.18-05.36.57:417][425]LogMaterial:Warning: Material /Engine/Transient.M_Height_Slope_Procedural needed to have new flag set bUsedWithLandscape !
+[2016.04.18-05.36.57:425][425]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.36.57:439][425]LogMaterial: 0.000248 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.36.57:447][425]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.36.57:481][425]LogMaterial: 0.000261 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.18-05.36.57:481][425]LogMaterial:Warning: Material /Game/Material/Parent/M_Height_Slope_Procedural.M_Height_Slope_Procedural needed to have new flag set bUsedWithStaticLighting !
+[2016.04.18-05.36.57:482][425]LogMaterial:Warning: Material /Engine/Transient.M_Height_Slope_Procedural needed to have new flag set bUsedWithStaticLighting !
+[2016.04.18-05.36.57:488][425]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.36.57:505][425]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.36.57:513][425]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.36.57:577][425]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.18-05.36.57:628][426]Cmd: UpdateLandscapeEditorData
+[2016.04.18-05.36.57:630][426]Cmd: UpdateLandscapeMIC
+[2016.04.18-05.37.54:527][261]MaterialEditorStats: Info Base pass shader with static lighting: 409 instructions
+[2016.04.18-05.37.54:527][261]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 377 instructions
+[2016.04.18-05.37.54:527][261]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.04.18-05.37.54:527][261]MaterialEditorStats: Info Texture samplers: 8/16
+[2016.04.18-05.39.06:504][453]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.39.06:547][453]LogMaterial: 0.001693 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.04.18-05.39.06:560][453]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.39.06:602][453]LogMaterial: 0.001842 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.04.18-05.39.06:611][453]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.39.06:662][453]LogMaterial: 0.001730 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.04.18-05.39.06:674][453]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.39.06:721][453]LogMaterial: 0.002542 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.04.18-05.39.06:738][453]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.39.06:792][453]LogMaterial: 0.004073 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.04.18-05.39.06:794][453]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.04.18-05.42.06:443][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Landscape" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Maps/Landscape.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.18-05.42.06:471][991]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2016.04.18-05.42.06:580][991]LogSavePackage: Save=115.276527ms
+[2016.04.18-05.42.06:580][991]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/Landscape3EDCD2B8476050F46C5DAD8A718C684B.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Maps/Landscape.umap'
+[2016.04.18-05.42.06:582][991]LogSavePackage: Total save time: 123.632412ms
+[2016.04.18-05.42.06:582][991]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Maps/Landscape.umap
+[2016.04.18-05.42.06:613][991]LogFileHelpers: Saving map 'Landscape' took 0.284
+[2016.04.18-05.42.06:634][991]LogSavePackage: Save=9.092816ms
+[2016.04.18-05.42.06:634][991]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/M_Height_Slope_Procedural538AA6054D924AFDF35D89B48FF0E500.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset'
+[2016.04.18-05.42.06:636][991]LogSavePackage: Total save time: 14.195517ms
+[2016.04.18-05.42.06:636][991]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Parent/M_Height_Slope_Procedural.uasset
+[2016.04.18-05.44.52:570][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Landscape" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Maps/Landscape.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.18-05.44.52:589][812]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2016.04.18-05.44.52:690][812]LogSavePackage: Save=105.188957ms
+[2016.04.18-05.44.52:690][812]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/Landscape9D5B7D874F397486A0D7959DD04D78DB.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Maps/Landscape.umap'
+[2016.04.18-05.44.52:691][812]LogSavePackage: Total save time: 109.984159ms
+[2016.04.18-05.44.52:691][812]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Maps/Landscape.umap
+[2016.04.18-05.44.52:718][812]LogFileHelpers: Saving map 'Landscape' took 0.260
+[2016.04.18-05.49.45:990][615]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2016.04.18-05.49.46:040][615]LogMaterial: 0.000176 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.49.46:069][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.46:135][615]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.49.46:156][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.46:196][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.46:241][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.46:283][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.46:328][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.46:378][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.46:425][615]LogMaterial: 0.232309 seconds spent updating 3 materials, 3 interfaces, 28 instances, 5 with static permutations.
+[2016.04.18-05.49.48:669][615]LogMaterial: Missing cached shader map for material Material_6, compiling. 
+[2016.04.18-05.49.48:747][615]LogMaterial: 0.000120 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.49.48:787][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.48:886][615]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.49.48:920][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.48:965][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.49:036][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.49:102][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.49:165][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.49:223][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.49:289][615]LogMaterial: 0.330567 seconds spent updating 3 materials, 3 interfaces, 28 instances, 5 with static permutations.
+[2016.04.18-05.49.50:644][615]LogMaterial: Missing cached shader map for material Material_12, compiling. 
+[2016.04.18-05.49.50:723][615]LogMaterial: 0.000217 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.49.50:759][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.50:861][615]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.49.50:892][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.50:939][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.51:003][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.51:072][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.51:141][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.51:201][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.51:261][615]LogMaterial: 0.325294 seconds spent updating 3 materials, 3 interfaces, 28 instances, 5 with static permutations.
+[2016.04.18-05.49.52:810][615]LogMaterial: Missing cached shader map for material Material_15, compiling. 
+[2016.04.18-05.49.52:881][615]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.49.52:922][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.53:018][615]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.49.53:050][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.53:097][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.53:164][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.53:234][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.53:311][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.53:378][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.53:440][615]LogMaterial: 0.352310 seconds spent updating 3 materials, 3 interfaces, 28 instances, 5 with static permutations.
+[2016.04.18-05.49.54:661][615]LogMaterial: Missing cached shader map for material Material_20, compiling. 
+[2016.04.18-05.49.54:673][615]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.49.54:716][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.54:858][615]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.49.54:902][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.54:937][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.55:002][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.55:068][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.55:138][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.55:206][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.55:268][615]LogMaterial: 0.335490 seconds spent updating 3 materials, 3 interfaces, 28 instances, 5 with static permutations.
+[2016.04.18-05.49.56:545][615]LogMaterial: Missing cached shader map for material Material_24, compiling. 
+[2016.04.18-05.49.56:555][615]LogMaterial: 0.000085 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.18-05.49.56:618][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.56:783][615]LogMaterial: Missing cached shader map for material Material_31, compiling. 
+[2016.04.18-05.49.56:821][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.56:859][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.56:925][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.56:983][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.57:048][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.57:112][615]LogMaterial: Missing cached shader map for material M_Height_Slope_Procedural, compiling. 
+[2016.04.18-05.49.57:180][615]LogMaterial: 0.326384 seconds spent updating 3 materials, 3 interfaces, 28 instances, 5 with static permutations.
+[2016.04.18-05.49.59:315][615]LogMaterial: Missing cached shader map for material Material_33, compiling. 
+[2016.04.18-05.49.59:362][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Functions/F_CobbleStone_Layer" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_CobbleStone_Layer.uasset" SILENT=true
+[2016.04.18-05.49.59:386][615]LogSavePackage: Save=15.888206ms
+[2016.04.18-05.49.59:386][615]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/F_CobbleStone_Layer5000BE16415545B5E71750918EF02C29.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_CobbleStone_Layer.uasset'
+[2016.04.18-05.49.59:387][615]LogSavePackage: Total save time: 24.235878ms
+[2016.04.18-05.49.59:387][615]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_CobbleStone_Layer.uasset
+[2016.04.18-05.49.59:409][615]LogMaterial: Missing cached shader map for material Material_34, compiling. 
+[2016.04.18-05.49.59:450][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Functions/F_Ground_Layer" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Ground_Layer.uasset" SILENT=true
+[2016.04.18-05.49.59:474][615]LogSavePackage: Save=19.161505ms
+[2016.04.18-05.49.59:474][615]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/F_Ground_Layer4A4A180B4F78B40F6D2CCF91CE28C588.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Ground_Layer.uasset'
+[2016.04.18-05.49.59:476][615]LogSavePackage: Total save time: 25.084481ms
+[2016.04.18-05.49.59:476][615]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Ground_Layer.uasset
+[2016.04.18-05.49.59:486][615]LogMaterial: Missing cached shader map for material Material_35, compiling. 
+[2016.04.18-05.49.59:514][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Functions/F_Height_Blend" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Height_Blend.uasset" SILENT=true
+[2016.04.18-05.49.59:537][615]LogSavePackage: Save=14.012823ms
+[2016.04.18-05.49.59:537][615]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/F_Height_BlendE2EDEF704CBDAE50618093A17D56ECA7.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Height_Blend.uasset'
+[2016.04.18-05.49.59:538][615]LogSavePackage: Total save time: 22.983298ms
+[2016.04.18-05.49.59:538][615]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Height_Blend.uasset
+[2016.04.18-05.49.59:551][615]LogMaterial: Missing cached shader map for material Material_36, compiling. 
+[2016.04.18-05.49.59:600][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Functions/F_Rock_Layer" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Rock_Layer.uasset" SILENT=true
+[2016.04.18-05.49.59:631][615]LogSavePackage: Save=23.787149ms
+[2016.04.18-05.49.59:632][615]LogSavePackage: Moving '../../../../../Projects/Unreal/Cours/vegetation_pack/Saved/F_Rock_LayerA1D697D54B5E40570B49C8AEFF698348.tmp' to '../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Rock_Layer.uasset'
+[2016.04.18-05.49.59:635][615]LogSavePackage: Total save time: 33.653852ms
+[2016.04.18-05.49.59:635][615]LogSavePackage:Warning: Finished SavePackage ../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Rock_Layer.uasset
+[2016.04.18-05.49.59:651][615]LogMaterial: Missing cached shader map for material Material_37, compiling. 
+[2016.04.18-05.49.59:699][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material/Functions/F_Sand_Layer" FILE="../../../../../Projects/Unreal/Cours/vegetation_pack/Content/Material/Functions/F_Sand_Layer.uasset" SILENT=true
+[2016.04.18-05.
